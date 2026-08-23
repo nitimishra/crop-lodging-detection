@@ -1125,6 +1125,3 @@ with tab5:
             * **{t['about_meta_status']}:** Offline ⚠️
             * **{t['about_meta_region']}:** {t['about_meta_region_val']}
             """)
-            
-    st.write("---")
-    st.markdown(f"<p style='text-align: center; color: #5a6b5d;'>{t['about_footer']}</p>", unsafe_allow_html=True)
