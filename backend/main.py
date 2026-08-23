@@ -39,7 +39,7 @@ TARGET_CRS = "EPSG:32643"     # same CRS used when building the training grid in
 GRID_CELL_SIZE = 5.0           # meters — ⚠️ must match your QGIS "Create Grid" cell size
 
 # --- Load saved model artifacts ---
-MODELS_DIR = os.path.join(os.path.dirname(__file__), "..", "models")
+MODELS_DIR = os.path.join(os.path.dirname(__file__), "..", "Models")
 model = joblib.load(os.path.join(MODELS_DIR, "final_model.pkl"))
 scaler = joblib.load(os.path.join(MODELS_DIR, "final_scaler.pkl"))
 feature_names = joblib.load(os.path.join(MODELS_DIR, "feature_names.pkl"))
