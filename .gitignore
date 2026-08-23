@@ -1,0 +1,25 @@
+# --- SQLite Databases (CRITICAL: Contains your credentials & database/users.db) ---
+*.db
+*.sqlite3
+database/
+
+# --- Python Virtual Environments ---
+venv/
+.venv/
+env/
+
+# --- Python Cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Streamlit config and runtime files ---
+.streamlit/
+
+# --- Large GIS Data & Imagery (Prevents uploading heavy files) ---
+*.tiff
+*.tif
+*.geojson
+.user_uploaded/
+scratch/
